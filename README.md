@@ -13,6 +13,19 @@ $ packer build \
     bamboo-elastic-agent.json
 ```
 
+## Prerequisites
+
+You will need to have Packer installed to create AMIs. Packer is distributed as as binary package which
+can be downloaded from https://www.packer.io/downloads.html
+
+### Alternative method on MacOS
+
+On a Mac, Homebrew can be used to install Packer
+
+```
+brew install packer
+```  
+
 ## AWS Credentials
 
 You will need an IAM user account to run this locally on your computer. The script can also be run on an EC2

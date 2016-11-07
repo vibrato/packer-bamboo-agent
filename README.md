@@ -1,10 +1,10 @@
 # Packer Bamboo Elastic Agent
 
-Creates an AMI to use as a customised Bamboo Elastic Agent 
+Creates an AMI to use as a customised Bamboo Elastic Agent
 
 ## Getting started
 
-To create an AMI to use as a customised Bamboo Elastic Agent, run the following at the command line 
+To create an AMI to use as a customised Bamboo Elastic Agent, run the following at the command line
 
 ```
 $ packer build \
@@ -15,7 +15,7 @@ $ packer build \
 
 ## Prerequisites
 
-You will need to have Packer installed to create AMIs. Packer is distributed as as binary package which
+You will need to have Packer installed to create AMIs. Packer is distributed as a binary package which
 can be downloaded from https://www.packer.io/downloads.html
 
 ### Alternative method on MacOS
@@ -24,7 +24,7 @@ On a Mac, Homebrew can be used to install Packer
 
 ```
 brew install packer
-```  
+```
 
 ## AWS Credentials
 
@@ -91,4 +91,4 @@ region before updating the source AMI.
 
 ## Further reading
 
-Further details can be found here https://developer.atlassian.com/blog/2015/07/bamboo-packer/ 
+Further details can be found here https://developer.atlassian.com/blog/2015/07/bamboo-packer/

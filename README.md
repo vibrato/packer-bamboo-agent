@@ -8,10 +8,13 @@ To create an AMI to use as a customised Bamboo Elastic Agent, run the following 
 
 ```
 $ packer build \
-    -var 'AWS_ACCESS_KEY_ID=foo' \
-    -var 'AWS_SECRET_ACCESS_KEY=bar' \
+    -var 'aws_access_key=foo' \
+    -var 'aws_secret_key=bar' \
     bamboo-elastic-agent.json
 ```
+
+*NOTE: Packer will attempt to lookup AWS credentials from the environment variables and local AWS configuration files if not specified in the template.*
+Refer to https://www.packer.io/docs/builders/amazon.html#specifying-amazon-credentials
 
 ## Prerequisites
 
